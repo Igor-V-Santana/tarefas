@@ -1,0 +1,64 @@
+.task {
+    margin-top: 20px;
+    width: 55%;
+}
+
+.completed {
+    color: #339CFF;
+    background-color: #ccc;
+    text-decoration: line-through;
+}
+
+.task li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    margin-top: 20px;
+    box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.7);
+    height: 80px;
+    font-size: 45px;
+    border-radius: 10px;
+    padding: 10px;
+    text-transform: capitalize;
+}
+.task li:last-child{
+    margin-bottom: 10px;
+}
+.taskBtn{
+    display: flex;
+}
+
+.taskBtn button{
+    background-color: #339CFF;
+    color: #fff;
+    border-radius: 50%;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+    transition: .7s;
+}
+.task button:hover{
+    opacity: 0.5;
+}
+
+@media (max-width: 910px){
+    .task{
+        width: 90%;
+    }
+}
+
+@media (max-width: 575px){
+    .task li{
+        font-size: 25px;
+    }
+    .task button{
+        width: 30px;
+    }
+}

@@ -1,0 +1,29 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #339CFF;
+    color: #fff;
+    height: 10vh;
+    width: 100vw;
+}
+
+.header h2{
+    font-size: 30px;
+}
+
+.header button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #339CFF;
+    font-size: 40px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    transition: .7s;
+}
+.header button:hover{
+    opacity: 0.5;
+}
