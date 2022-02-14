@@ -1,6 +1,5 @@
 # Tarefas
 
-<p>Teste técnico - TruckPag </p>
 <p>Link do projeto 📲 : https://tarefas-igor-v-santana.netlify.app/ </p>
 <img src="https://i.imgur.com/qqDQNTO.png" width="500"/>
  <h4>Techs utilizadas:</h4>
